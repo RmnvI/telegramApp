@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TravelBot</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <h1>HALO</h1>
+
+    <div id="tableBlock"></div>
+    <div id="editBlock" style="display: inline-block">
+        <p><b>EDIT</b></p>
+        <table>
+            <tr><td><input type="hidden" id="editId" /></td><td></td></tr>
+            <tr><td><label>City Name: </label></td><td><input type="text" id="editName" maxlength="1000"/></td></tr>
+            <tr><td><label>Description: </label></td><td><textarea rows="6" cols="60" id="editDescription"></textarea></td></tr>
+        </table>
+        <button id="edit">Save</button>
+    </div>
+    <div id="createBlock" style="display: inline-block; margin-left: 20vw" >
+        <p><b>ADD</b></p>
+        <table>
+            <tr><td><label>City name: </label></td><td><input type="text" id="cityName" /></td></tr>
+            <tr><td><label>Description: </label></td><td><textarea rows="6" cols="60"  id="cityDescription"></textarea></td></tr>
+        </table>
+        <button id="add">Save</button>
+    </div>
+</body>
+</html>
+
+
+
